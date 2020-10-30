@@ -22,7 +22,7 @@ async function run(): Promise<void> {
   try {
     // Add notice
     core.warning(
-      'Thank you for using appengine-deploy Action. GoogleCloudPlatform/github-actions/appengine-deploy has been deprecated, please switch to google-github-actions/appengine-deploy.',
+      'Thank you for using appengine-deploy Action. GoogleCloudPlatform/github-actions/appengine-deploy has been deprecated, please switch to google-github-actions/deploy-appengine.',
     );
     // Get action inputs.
     let projectId = core.getInput('project_id');
