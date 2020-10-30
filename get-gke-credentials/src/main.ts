@@ -21,7 +21,9 @@ import { ClusterClient } from './gkeClient';
 async function run(): Promise<void> {
   try {
     // Add notice
-    core.warning('Thank you for using get-gke-credentials Action. GoogleCloudPlatform/github-actions/get-gke-credentials has been deprecated, please switch to google-github-actions/get-gke-credentials.');
+    core.warning(
+      'Thank you for using get-gke-credentials Action. GoogleCloudPlatform/github-actions/get-gke-credentials has been deprecated, please switch to google-github-actions/get-gke-credentials.',
+    );
     // Get inputs
     const name = core.getInput('cluster_name', { required: true });
     const location = core.getInput('location', { required: true });
