@@ -24,7 +24,7 @@ limitations under the License.
 steps:
  - id: upload-file
 -  uses: GoogleCloudPlatform/github-actions/upload-cloud-storage@master
-+  uses: google-github-actions/upload-cloud-storage@master
++  uses: google-github-actions/upload-cloud-storage@main
 ```
 
 This action uploads files/folders to a [Google Cloud Storage (GCS)][gcs] bucket. This is useful when

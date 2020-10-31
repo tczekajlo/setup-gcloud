@@ -23,7 +23,7 @@ limitations under the License.
 steps:
  - id: get-credentials
 -  uses: GoogleCloudPlatform/github-actions/get-gke-credentials@master
-+  uses: google-github-actions/get-gke-credentials@master
++  uses: google-github-actions/get-gke-credentials@main
 ```
 
 This action configures authentication to a [GKE cluster][gke] via a `kubeconfig` file that can be used with `kubectl` or other methods of interacting with the cluster.

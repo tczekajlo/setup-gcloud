@@ -24,7 +24,7 @@ limitations under the License.
 steps:
  - id: secrets
 -  uses: GoogleCloudPlatform/github-actions/get-secretmanager-secrets@master
-+  uses: google-github-actions/get-secretmanager-secrets@master
++  uses: google-github-actions/get-secretmanager-secrets@main
 ```
 
 This action fetches secrets from [Secret Manager][sm] and makes them available

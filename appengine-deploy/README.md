@@ -23,7 +23,7 @@ limitations under the License.
 steps:
  - id: deploy
 -  uses: GoogleCloudPlatform/github-actions/appengine-deploy@master
-+  uses: google-github-actions/deploy-appengine@master
++  uses: google-github-actions/deploy-appengine@main
 ```
 
 This action deploys your source code to [App Engine][gae] and makes the URL

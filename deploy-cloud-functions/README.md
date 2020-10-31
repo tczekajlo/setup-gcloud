@@ -23,7 +23,7 @@ limitations under the License.
 steps:
  - id: deploy
 -  uses: GoogleCloudPlatform/github-actions/deploy-cloud-functions@master
-+  uses: google-github-actions/deploy-cloud-functions@master
++  uses: google-github-actions/deploy-cloud-functions@main
 ```
 
 This action deploys your function source code to [Cloud Functions](cloud-functions) and makes the URL

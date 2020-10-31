@@ -23,7 +23,7 @@ limitations under the License.
 steps:
  - id: deploy
 -  uses: GoogleCloudPlatform/github-actions/deploy-cloudrun@master
-+  uses: google-github-actions/deploy-cloudrun@master
++  uses: google-github-actions/deploy-cloudrun@main
 ```
 
 This action deploys your container image to [Cloud Run][cloud-run] and makes the URL
