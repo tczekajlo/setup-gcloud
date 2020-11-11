@@ -25,7 +25,7 @@ import { getLatestGcloudSDKVersion } from './version-util';
 
 export { getLatestGcloudSDKVersion };
 
-/**
+/***
  * Checks if gcloud is installed.
  *
  * @param version (Optional) Cloud SDK version.
