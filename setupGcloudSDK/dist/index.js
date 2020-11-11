@@ -6093,7 +6093,7 @@ const downloadUtil = __importStar(__webpack_require__(339));
 const installUtil = __importStar(__webpack_require__(962));
 const version_util_1 = __webpack_require__(71);
 exports.getLatestGcloudSDKVersion = version_util_1.getLatestGcloudSDKVersion;
-/**
+/***
  * Checks if gcloud is installed.
  *
  * @param version (Optional) Cloud SDK version.
